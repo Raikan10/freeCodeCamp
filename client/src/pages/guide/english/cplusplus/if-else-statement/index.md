@@ -105,13 +105,6 @@ You entered a negative number: -200
 This step is always printed
 ```
 
-<a href='https://repl.it/MzBq' target='_blank' rel='nofollow'>Try the code yourself</a>
-
- **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
-=======
-[Try the code yourself](https://repl.it/MzBq)
-
-
 ### Use of if...else if...else ladder
 If we have to make decisions based on more than one conditions using if else. We use else if condition as follows -
 ```cpp
@@ -185,8 +178,32 @@ Number 2 is greater.
 
 * The size of the if...else if...else ladder may vary depending on the problem the program is trying to solve and the number of conditions that need to be checked.
 
+### The Ternary Operator
+The ternary operator is just basically a way to write a simple if else statement in one line. The syntax looks like this
+```cpp
+(condition)?true_case_code:false_case_code;
+```
+### Example of ternary operator
+```cpp
+#include<iostream>
+using namespace std;
+int main()
+{
+        int a,b,big;
+        cout<<"Enter 2 numbers to check the greatest";
+        cin>>a>>b;
+        big = (a>b)?a:b;
+        cout<<"The greatest of the 2 is "<<big;
+        return 0;
+}
+```
 **Good Luck to all of you** 
 
 **Happy Coding ! :)**
+
+<a href='https://repl.it/MzBq' target='_blank' rel='nofollow'>Try the code yourself</a>
+ **Feel free to ask any queries on FreeCodeCamp's GitHub page or [FreeCodeCamp's Forum .](https://forum.freecodecamp.org/)**
+=======
+[Try the code yourself](https://repl.it/MzBq)
 
  **Feel free to ask any queries on freeCodeCamp.org's GitHub page or [the freeCodeCamp.org Forum](https://forum.freecodecamp.org/)**.
